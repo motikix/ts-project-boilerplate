@@ -1,0 +1,18 @@
+{
+  "env": {
+    "production": {
+      "plugins": ["@babel/plugin-transform-react-constant-elements"]
+    }
+  },
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false,
+        "targets": {
+          "node": "current"
+        }
+      }
+    ]
+  ]
+}
